@@ -2,6 +2,7 @@ package week5CodingAssignment;
 
 public class SpacedLogger implements Logger {
 
+	// print log variable with a space in between each character
 	@Override
 	public void log(String log) {
 		
@@ -11,7 +12,7 @@ public class SpacedLogger implements Logger {
 		
 		
 	}
-
+	// print log variable with a space in between each character and preceded with error 
 	@Override
 	public void error(String error) {
 		System.out.print("Error: ");
