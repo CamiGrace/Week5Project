@@ -8,13 +8,13 @@ public class App {
 		// implement scanner 
 		Scanner kb = new Scanner(System.in);
 		String userWord = kb.next();
-		
+		String userWord2 = kb.next();
 		
 		//call on methods created in AsteriskLogger 
 		Logger logger = new AsteriskLogger ();
 		logger.log(userWord);
 		System.out.println();
-		logger.error(userWord);
+		logger.error(userWord2);
 		System.out.println();
 		
 		
@@ -22,7 +22,7 @@ public class App {
 		Logger spacedlogger = new SpacedLogger ();
 		spacedlogger.log(userWord);
 		System.out.println();
-		spacedlogger.error(userWord);
+		spacedlogger.error(userWord2);
 		System.out.println();
 		
 		
